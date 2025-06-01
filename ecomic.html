@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Comics Biology</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>E-Comics Biology</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- About Section -->
+    <section id="about">
+        <h2>About</h2>
+        <p>Welcome to E-Comics Biology! Here you can explore biology topics in an interactive and fun way through comics.</p>
+    </section>
+
+    <!-- Main Content -->
+    <main id="home">
+        <section>
+            <h2>Bab 1: Sistem Ekskresi</h2>
+            <p>Click below to read the comic about the human excretory system.</p>
+            <button onclick="showComic()">Baca Komik Bab 1</button>
+
+            <!-- Comic Section -->
+            <div id="comicSection" style="display:none;">
+                <h3>Komik: Sistem Ekskresi Manusia</h3>
+                <img src="komik-bab1.jpg" alt="Komik Sistem Ekskresi">
+            </div>
+        </section>
+
+        <!-- Quiz Section -->
+        <section>
+            <h2>Kuis: Sistem Ekskresi</h2>
+            <form id="quizForm">
+                <label for="question1">Apa itu ginjal?</label>
+                <input type="text" id="question1" name="question1">
+                <button type="button" onclick="checkAnswer()">Kirim Jawaban</button>
+            </form>
+            <p id="quizFeedback"></p>
+        </section>
+    </main>
+
+
+    <!-- Contact Section -->
+<footer>
+    <p>Kontak: <a href="mailto:husnahamidah163@gmail.com">husnahamidah163
+    @gmail.com</a></p>
+    <p>Masukkan Masukan Anda: <a href="https://forms.gle/miiabnRUnVwD56mS6" target="_blank">Formulir Masukan</a></p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
