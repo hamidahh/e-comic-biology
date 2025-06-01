@@ -4,7 +4,7 @@ This is an interactive comic series for learning biology concepts in a fun and e
 
 ## Features
 - **Interactive Comics**: Learn biology topics through visual storytelling.
-- **Quizzes**: Test your knowledge at the end of each chapter.
+- **Quizzes**: Test your knowledge at the end of chapter.
 
 ## Getting Started
 
